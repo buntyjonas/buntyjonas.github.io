@@ -61,7 +61,7 @@ width: 100%;}
 }
 
 .navbar-inverse .navbar-nav > li > a {
-  color: black;
+  color: white;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
@@ -120,7 +120,7 @@ li a.active:after {
            Big Logo
   ********************************** */
 .big-logo-row {
-  background: rgba(62, 195, 246, 0.6);
+  background: rgba(62, 195, 246, 0.5);
     height: 20%
 }
 .big-logo-row .big-logo-container {
@@ -167,7 +167,17 @@ li a.active:after {
 padding-left: 2% !important;
 }
 .headline {
+    padding-top: 10px;
+    padding-bottom: 10px;
 text-align: center;}
 .navbar-fixed-bottom {
     margin-top: 100px;
 position: relative;}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.open>a {
+  
+    background-color: rgba(0, 0, 0, 0) !important;
+    background-image: none !important;
+    box-shadow: 0;
+  
+}
