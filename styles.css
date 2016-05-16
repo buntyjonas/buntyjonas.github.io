@@ -8,7 +8,7 @@
 html, body {
 height: 100%;
 width: 100%;
-    color: black;
+    color: white;
 }
 
 p {
@@ -25,7 +25,17 @@ p {
 height: auto;
 min-height: 60%;
      text-align: center;
+    
+    background-color: rgba(0, 0, 0, 0.5);
+   background-size: contain;
+ 
+    
 }
+.background {
+ background-image: url(map.png);
+  background-size: cover;
+}
+
 .steprow {
 width: 100%;}
 .backgroundstep {
