@@ -8,16 +8,21 @@
 html, body {
 height: 100%;
 width: 100%;
-    color: black;
-   
+    color: white;
 }
 
+p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
 .navbar-inverse {
   background: rgba(62, 195, 246, 0);
   border-bottom: none;
 }
 .content {
-background-color: ghostwhite;
+   background-image: url(stockholm.jpg);
+    background-blend-mode: soft-light;
+
 height: auto;
 min-height: 60%;
      text-align: center;
@@ -154,3 +159,6 @@ padding-left: 2% !important;
 }
 .headline {
 text-align: center;}
+.navbar-fixed-bottom {
+    margin-top: 100px;
+position: relative;}
