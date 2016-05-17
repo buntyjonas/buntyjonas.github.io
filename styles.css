@@ -228,10 +228,11 @@ text-align: center;}
 
 
 @media (min-width: 600px) {
-    #bar {
+    #bar  {
 display: block;
 margin-top: 2.5em;
 position: absolute;
+
     }
 }
 
@@ -253,6 +254,12 @@ display: none;
 display: block;
 position: absolute;
 
+    }
+}
+@media (max-width: 599px) {
+    .mobile h2{
+
+font-size: 20px;
 
     }
 }
