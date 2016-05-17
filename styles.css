@@ -34,7 +34,7 @@ p {
     left:0%;
     right: 0%;
     bottom: 9.5%;
-
+    min-height: 70%;
     position: absolute;
      text-align: center;
     background-color: rgba(0, 0, 0, 0.5);
@@ -189,10 +189,7 @@ padding-left: 2% !important;
     padding-top: 10px;
     padding-bottom: 10px;
 text-align: center;}
-.navbar-fixed-bottom {
-    margin-top: 70px;
-position: relative;
-text-align: center;}
+
 
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.open>a {
   
@@ -200,4 +197,19 @@ text-align: center;}
     background-image: none !important;
     box-shadow: 0;
   
+}
+
+
+@media (min-width: 600px) {
+    #bar {
+display: block;
+margin-top: 100px;
+    }
+}
+
+@media (max-width: 550px) {
+    #bar {
+display: none;
+
+    }
 }
