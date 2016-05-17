@@ -8,22 +8,31 @@
 html, body {
 height: 100%;
 width: 100%;
-    color: white;
+color: white;
+font-family: 'Open Sans', sans-serif;
 }
 
 @media (max-width: 500px) {
    .content h1 { margin-top 10px !important; }
 }
 h1 {
-font-size: 35px;
+font-size: 34px;
+    font-weight: 900;
 margin-top: 30px;
     margin-bottom: 30px;
+}
+
+.headline {
+font-size:21px;
+font-weight: bold;
+margin-top: 0px;
 }
 
 h2 {
 margin-top: 35px;
 font-size: 25px;}
 p {
+    font-size: 13px;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -56,12 +65,23 @@ p {
 .steprow {
 width: 100%;}
 .backgroundstep {
-   margin-top: 1%;
+   margin-top: 5%;
     position: relative;
     height: 102%;
     width: 106%;
- background: rgba(62,195,246, 0.7);
-    
+ background: #5BA1FF;
+    text-align: center;
+    min-height: 275px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 20px;
+}
+
+.brackgroundstep img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+  
 }
 .navbar-inverse .navbar-toggle {
   border: 1px solid #333;
@@ -76,8 +96,9 @@ width: 100%;}
     background: none;
   }
 }
-navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
-   background-color: transparent;
+navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover .navbar-toggle:after {
+   background-color: #5BA1FF;
+    background: #5BA1FF;
 }
 .navbar-inverse .navbar-nav > li > a {
   color: white;
@@ -140,7 +161,7 @@ li a.active:after {
            Big Logo
   ********************************** */
 .big-logo-row {
-  background: rgba(62, 195, 246, 0.80);
+  background: #5BA1FF;
     height: 10.5%;
     border-bottom: 20px;
     border-bottom-color: black;
@@ -201,20 +222,54 @@ text-align: center;}
     background-color: rgba(0, 0, 0, 0) !important;
     background-image: none !important;
     box-shadow: 0;
-  
 }
 
 
 @media (min-width: 600px) {
-    #bar {
+    #bar p {
 display: block;
-margin-top: 100px;
+
+        font-size: 30px;
+        position: absolute;
     }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 599px) {
     #bar {
 display: none;
 
     }
+}
+@media (min-width: 600px) {
+    .mobile  {
+display: none;
+
+    }
+}
+
+@media (max-width: 599px) {
+    .mobile {
+display: block;
+position: absolute;
+
+
+    }
+}
+.badge {
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    margin-top: 5px;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+}
+.stepbystep {
+
 }
