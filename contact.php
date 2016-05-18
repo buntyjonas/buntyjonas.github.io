@@ -4,7 +4,7 @@
 $from = 'Demo contact form <demo@domain.com>';
 $sendTo = '<jonaslindstrom86@gmail.com>';
 $subject = 'Förfrågan från Worksite.se';
-$fields = array('name' => 'Name', 'email' => 'Email', 'message' => 'Message' 'phone' => 'Phone'); // array variable name => Text to appear in email
+$fields = array('help' => 'Help', 'location' => 'Location', 'time' => 'Time', 'value' => 'Value', 'phone' => 'Phone'); // array variable name => Text to appear in email
 $okMessage = 'Tack för er förfrågan, en bekräftelse kommer på sms!';
 $errorMessage = 'Alla fält måste vara ifyllda!';
 
