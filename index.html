@@ -77,27 +77,141 @@
         <div class="col-lg-12 col-md-12 col-sm-12 mobile">
 
             <h1>Need a Favour?</h1><br>
-            <h2>Ibland är det svårt att hinna med allt.<br>SMSa <strong>vad</strong> du vill ha ordnat, samt <strong>när</strong> och <strong>vart</strong> du vill ha det levererat.<br>
+            <h2>SMSa <strong>vad</strong> du vill ha ordnat, samt <strong>när</strong> och <strong>vart</strong> du vill ha det levererat.<br>
 Vi löser det!
-</h2>
+</h2><br>
             <h2><a href="sms:/ +4676-6862203 /&body=Vad behöver du:%0a%0aNär vill du ha det:%0a%0aVart vill du ha det:%0a%0aVad du tycker det är värt(ange värdet för ärendet exklusive eventuella inköp):"></h2><button type="button" class="btn btn-success btn-lg">Skicka din beställning här</button></a><br><br><em>inga uppdrag är för små, du anger själv vad du vill betala och betalar aldrig i förskott</em>
-          </div> <div class="col-lg-12 col-md-12 col-sm-12 custombar" id="bar"><h1>Need a Favour?</h1><br><h2>Favour:it är ett nätverk där ditt ärende utförs av personer nära dig<br><br> Skicka ett sms till 076-686 22 03 eller <button type="button" class="btn btn-success btn-lg">Beställ Online</button></h2><br><br><em>inga uppdrag är för små, du anger själv vad du vill betala och betalar aldrig i förskott</em></div>
+          </div> <div class="col-lg-12 col-md-12 col-sm-12 custombar" id="bar"><h1>Need a Favour?</h1><br><h2>Favour:it är ett nätverk där ditt ärende utförs av personer nära dig<br><br> Skicka ett sms till 076-686 22 03 eller <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal">Beställ Online</button></h2><br><br><em>inga uppdrag är för små, du anger själv vad du vill betala och betalar aldrig i förskott</em></div>
   
         </div><!--/.col-xs-12 -->
       </div><!--/.row -->
+    
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h2 class="modal-title" id="myModalLabel" style="color: black;">Favour:it </h2>
+      </div>
+      <div class="modal-body">
+         <form id="contact-form" method="post" action="contact.php" role="form">
+
+    
+
+    <div class="controls formofcontact" style="color: grey;">
+
+        <div class="row">
+            <div class="col-md-12">
+                
+               <label for="form_name" class="labelcontact" >Vad vill du ha hjälp med?</label> <input id="form_name" type="text" name="help" class="form-control form-control-others" placeholder="Fri text..." required="required">
+               
+            </div><br>
+           
+            <div class="col-md-12">
+               <label for="form_email">Vart vill du ha det levererat?</label>
+                <input id="form_email" type="email" name="location" class="form-control form-control-others" placeholder="Ange adress, vi leverar innanför tullarna!" required="required">
+            </div><br>
+           
+            <div class="col-md-12">
+               <label for="form_message">När vill du ha det levererat?</label>
+                <textarea id="form_message" name="time" class="form-control form-control-others" placeholder="Önskad tidpunkt för leverans..." required="required"></textarea> 
+            </div><br>
+            <div class="col-md-12">
+               <label for="form_message">Vad tycker du ärendet är värt?</label>
+                <textarea id="form_message" name="value" class="form-control form-control-others" placeholder="Ange värdet på ärendet exlusive eventuella inköp..." required="required"></textarea> 
+            </div><br>
+            <div class="col-md-12">
+               <label for="form_message">Ange ditt mobilnummer</label>
+                <textarea id="form_message" name="phone" class="form-control form-control-others" placeholder="Ange värdet på ärendet exlusive eventuella inköp" required="required"></textarea> 
+            </div><br>
+            <div class="col-md-12">
+                <input type="submit" class="btn btn-success btn-send" value="Kom igång!" style="width: 100%;">
+            </div><br>
+           <div class="col-md-12 messages"></div>
+        </div>
+        
+        </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+       
+      </div>
+    </div>
+  </div>
+</div>
     </div><!--/.container -->
     <div class="container stepbystep">
-    <div class="row steprow">
-        <div class="col-md-3"> <div class="backgroundstep"><span class="badge numbers">1</span><br><br><img  src="groceries.png" alt="Vad vill du ha hjälp med? När vill du ha det utfört, vart ska det levereras samt vad tycker du det är värt?" style="width: 40%; height:40%;"><h2 class="headline">Vad behöver du?</h2><p>Skriv vad du vill ha hämtat, lämnat, köpt eller ordnat åt dig.</p></div>
+    <div class="row">
+        <div class="col-md-4"> <div class="backgroundstep"><span class="badge numbers">1</span><br><br><img  src="groceries.png" alt="Vad vill du ha hjälp med? När vill du ha det utfört, vart ska det levereras samt vad tycker du det är värt?" style="width: 40%; height:40%;"><h2 class="headline">Vad du behöver</h2><p>Ange ditt ärende.<br>Ex: köp mjölk, hämta kemtvätt, etc.</p></div>
             </div>
-         <div class="col-md-push-1 col-md-3">
-             <div class="backgroundstep"><span class="badge numbers">2</span><br><br><img  src="logovarn%C3%A4r.png" alt="Vad vill du ha hjälp med? När vill du ha det utfört, vart ska det levereras samt vad tycker du det är värt?" style="width: 40%; height:40%;"><h2 class="headline">Tid & Plats?</h2><p>Ange vilken tid du vill ha det ordnat och ev. leveransadress.</p></div>
+         <div class="col-md-4">
+             <div class="backgroundstep"><span class="badge numbers">2</span><br><br><img  src="logovarn%C3%A4r.png" alt="Vad vill du ha hjälp med? När vill du ha det utfört, vart ska det levereras samt vad tycker du det är värt?" style="width: 40%; height:40%;"><h2 class="headline">När & var</h2><p>Ange tid och plats för leverans.</p></div>
         </div>
-         <div class="col-md-push-2 col-md-3">
-                      <div class="backgroundstep"><span class="badge numbers">3</span><br><br><img  src="coins1.png" alt="Vad vill du ha hjälp med? När vill du ha det utfört, vart ska det levereras samt vad tycker du det är värt?" style="width: 40%; height:40%;"><h2 class="headline">Vad kostar det?</h2><p>Du betalar vid leverans vad varorna eller uppgiften kostar & frivilligt tillägg.</p>
+         <div class="col-md-4">
+                      <div class="backgroundstep"><span class="badge numbers">3</span><br><br><img  src="coins1.png" alt="Vad vill du ha hjälp med? När vill du ha det utfört, vart ska det levereras samt vad tycker du det är värt?" style="width: 40%; height:40%;"><h2 class="headline">Betalning vid leverans</h2><p>Alltid till priser av eventuella varors kostnad + ett frivilligt tillägg.</p>
         </div>
         </div>
     </div>
+    </div>
+<!--- ABOUT FAVOURIT !----->
+   <div class="container stepbystep">
+    <div class="row steprow">
+    <div class="col-md-12">
+       <div id="aboutdiv">
+        <h2>Favour:it är ett nätverk där ditt ärende utförs av personer nära dig.</h2><br><p>
+Det spelar ingen roll om ärendet består av att handla mat eller slänga skräp.<br>Du kan alltid ta hjälp av en Favournaut som gör ärendet åt dig – samtidigt får du tid till saker du tycker om.<br>
+Favour:it underlättar människors vardag och skapar nya arbetstillfällen.</p>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- BILDER PÅ OSS ------->
+    <div class="container">
+    <div class="row">
+        <div class="col-xs-4" id="pictures"><img class="img-circle" src="coins1.png"></div>
+         <div class="col-xs-4" id="pictures"><img class="img-circle" src="coins1.png"></div>
+         <div class="col-xs-4" id="pictures"><img class="img-circle" src="coins1.png"></div>
+        </div>
+    <div class="row">
+        <div class="col-xs-push-2 col-xs-4" id="pictures"><img class="img-circle" src="coins1.png"></div>
+        <div class="col-xs-push-2 col-xs-4" id="pictures"><img class="img-circle" src="coins1.png"></div>
+        <div class="col-md-4"></div>
+        </div>
+    </div>
+    
+    <!-- CONTACT & ABOUT ------->
+    <footer class="footer">
+        <div class="container-fluid">
+
+      <form id="contact-form" method="post" action="contact.php" role="form">
+
+    
+
+    <div class="controls formofcontact">
+
+        <div class="row">
+                
+            <div class="col-md-push-4 col-md-4">
+               <label for="form_email"></label>
+                <input id="form_email" type="email" name="email" class="form-control form-control-others" placeholder=" Epost.." required="required">
+            </div>
+        </div>
+           <div class="row">
+          
+            <div class="col-md-push-4 col-md-4">
+                <input type="submit" class="btn btn-info btn-send" value="Skriv upp dig för nyhetsbrev!">
+            </div><br>
+           
+        </div>
+        <div class="col-md-12 messages"></div>
+        <div class="row">
+        <div class="col-md-push-4 col-md-4"><p style="text-align: center; color: grey;">Telefonvägen 19 Hägersten</p></div>
+        </div>
+        </div>
+        </form>
+        </div>
+        </footer>
+          
  <!--Start of Tawk.to Script-->
 <script type="text/javascript">
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
