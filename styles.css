@@ -32,7 +32,7 @@ h2 {
 margin-top: 35px;
 font-size: 25px;}
 p {
-    font-size: 13px;
+    font-size: 16px;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -113,6 +113,24 @@ background-color: #5BA1FF;
     border-radius: 20px;
     padding-top: 30px;
 }
+#faqdiv {
+color: white;
+background-color: #5BA1FF;
+      margin-top: 5%;
+    position: relative;
+    height: 100%;
+   width: 103%;
+ background: #5BA1FF;
+    text-align: center;
+    min-height: 225px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 20px;
+    padding-top: 30px;
+}
+#faqdiv p {
+font-size: 2.3vh;
+font-weight: bold;}
 
 .navbar-inverse .navbar-toggle {
   border: 1px solid #333;
