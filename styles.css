@@ -380,10 +380,20 @@ background-image: -webkit-linear-gradient(top,#5bc0de 0,#5BA1FF 100%);
 }
 
 @media (min-width: 600px) {
-    #faqdiv em  {
-padding-left: 150px;
-padding-right: 150px;
-
-    }
+    #faqdiv {
+color: white;
+background-color: #5BA1FF;
+      margin-top: 5%;
+    position: relative;
+    height: 100%;
+   width: 103%;
+ background: #5BA1FF;
+    text-align: center;
+    min-height: 225px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border-radius: 20px;
+    padding-top: 30px;
+}
 }
 
