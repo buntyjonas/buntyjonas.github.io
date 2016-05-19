@@ -34,3 +34,8 @@ $(window).scroll(function() {
   
   
 }); 
+
+function MVPmobilen() {
+    
+    ga('send', 'event', 'order', 'click', 'MVPMobile');
+}
