@@ -379,3 +379,11 @@ background-image: -webkit-linear-gradient(top,#5bc0de 0,#5BA1FF 100%);
 
 }
 
+@media (min-width: 600px) {
+    #faqdiv em  {
+padding-left: 150px;
+padding-right: 150px;
+
+    }
+}
+
