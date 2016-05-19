@@ -27,7 +27,7 @@
 
 <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <!-- Custom styles for this template -->
-    <link href="styles.css" rel="stylesheet">
+    
       
       
       <!--- mailchimp css --->
@@ -38,7 +38,10 @@
 	#mc_embed_signup{background:#fff; color:black; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;} 
 	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+    
 </style>
+      
+       <link href="styles.css" rel="stylesheet">
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -56,9 +59,9 @@
 <body>
    
     <script src="main.js"></script>
- 
+   
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="container">
+      <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
@@ -83,15 +86,7 @@
       </div>
     </div>
 
-    <div class="container-fluid big-logo-row">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12 big-logo-container">
-            <h1 class="big-logo"></h1>
-          </div><!--/.col-xs-12 -->
-        </div><!--/.row -->
-      </div><!--/.container -->
-    </div><!--/.container-fluid -->
+   
 <div class="container-fluid background">
     <div class="container-fluid content">
         
@@ -102,7 +97,13 @@
             <h2>SMSa <strong>vad</strong> du vill ha ordnat, samt <strong>när</strong> och <strong>vart</strong> du vill ha det levererat.<br>
 Vi löser det!
 </h2><br>
-            <h2><a href="sms:/ +4676-6862203 /&body=Vad behöver du:%0a%0aNär vill du ha det:%0a%0aVart vill du ha det:%0a%0aVad du tycker det är värt(ange värdet för ärendet exklusive eventuella inköp):" onclick="MVPmobilen()"></h2><button type="button" class="btn btn-success btn-lg">Skicka din beställning här</button></a><br><br><em>Inga uppdrag är för små. Du anger själv vad du vill betala och betalar aldrig i förskott.</em>
+            
+            
+           <!-- sms:/ +4676-6862203 /&body=Vad behöver du:%0a%0aNär vill du ha det:%0a%0aVart vill du ha det:%0a%0aVad du tycker det är värt(ange värdet för ärendet exklusive eventuella inköp):" onclick="MVPmobilen()" -->
+            
+            
+            
+            <h2><a href="" id="sms"></h2><button type="button" class="btn btn-success btn-lg">Skicka din beställning här</button></a><br><br><em>Inga uppdrag är för små. Du anger själv vad du vill betala och betalar aldrig i förskott.</em>
           </div> <div class="col-lg-12 col-md-12 col-sm-12 custombar" id="bar"><h1>Need a Favour?</h1><br><h2><br><br> Skicka ett sms till 076-686 22 03</h2><br><p style="margin-top: -25px"><em>eller</em></p><br>
            
           <a class="typeform-share link" href="https://favourit.typeform.com/to/WE66wh" data-mode="1" target="_blank" style="color: white">
@@ -116,19 +117,19 @@ Vi löser det!
       </div><!--/.row -->
 
 </div> 
-    </div><!--/.container -->
+    <!--/.container -->
     
     
     <div class="container stepbystep">
-    <div class="row">
-        <div class="col-md-4"> <div class="backgroundstep"><span class="badge numbers">1</span><br><br><img  src="groceries.png" alt="Vad vill du ha hjälp med? När vill du ha det utfört, vart ska det levereras samt vad tycker du det är värt?" style="width: 40%; height:40%;"><h2 class="headline">Vad du behöver</h2><p>Ange ditt ärende.<br>Ex: köp mjölk, hämta kemtvätt, etc.</p></div>
+    <div class="row"><h2 style="color: black; text-align: center">Såhär funkar det</h2>
+        <div class="col-md-4"> <div class="backgroundstep"><span class="badge numbers">1</span><br><br><img  src="mat.png" alt="Vad vill du ha hjälp med? När vill du ha det utfört, vart ska det levereras samt vad tycker du det är värt?" style="width: 40%; height:40%;"><h2 class="headline">Vad du behöver</h2><p>Ange ditt ärende.<br>Ex: köp mjölk, hämta kemtvätt, etc.</p></div><hr style="width: 70%">
             </div>
          <div class="col-md-4">
-             <div class="backgroundstep"><span class="badge numbers">2</span><br><br><img  src="logovarn%C3%A4r.png" alt="Vad vill du ha hjälp med? När vill du ha det utfört, vart ska det levereras samt vad tycker du det är värt?" style="width: 40%; height:40%;"><h2 class="headline">När & var</h2><p>Ange tid och plats för leverans.</p></div>
+             <div class="backgroundstep"><span class="badge numbers">2</span><br><br><img  src="karta.png" alt="Vad vill du ha hjälp med? När vill du ha det utfört, vart ska det levereras samt vad tycker du det är värt?" style="width: 40%; height:40%;"><h2 class="headline">När & var</h2><p>Ange tid och plats för leverans.</p></div><hr style="width: 70%">
         </div>
          <div class="col-md-4">
-                      <div class="backgroundstep"><span class="badge numbers">3</span><br><br><img  src="coins1.png" alt="Vad vill du ha hjälp med? När vill du ha det utfört, vart ska det levereras samt vad tycker du det är värt?" style="width: 40%; height:40%;"><h2 class="headline">Betalning vid leverans</h2><p>Alltid till priset av eventuella inköp + ett frivilligt tillägg.</p>
-        </div>
+                      <div class="backgroundstep"><span class="badge numbers">3</span><br><br><img  src="peng.png" alt="Vad vill du ha hjälp med? När vill du ha det utfört, vart ska det levereras samt vad tycker du det är värt?" style="width: 40%; height:40%;"><h2 class="headline">Betalning vid leverans</h2><p>Alltid till priset av eventuella inköp + ett frivilligt tillägg.</p>
+        </div><hr style="width: 70%">
         </div>
     </div>
     </div>
@@ -166,9 +167,9 @@ Favour:it underlättar människors vardag och skapar nya arbetstillfällen.</p><
     </div>
     --->
     <!-- CONTACT & ABOUT ------->
-    <footer class="footer">
-        <div class="container-fluid">
-
+    <br>
+        <div class="container-fluid" style="background-color: #5BA1FF;">
+<div id="albinsfooter">
    <form action="//favourit.us13.list-manage.com/subscribe/post?u=6d71ac8557a0271844f5f3a5b&amp;id=43df90a286" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 
     
@@ -186,17 +187,21 @@ Favour:it underlättar människors vardag och skapar nya arbetstillfällen.</p><
            <div class="row">
           
             <div class="clear col-md-push-4 col-md-4">
-                <input type="submit" class="btn btn-info btn-send" name="subscribe" id="mc-embedded-subscribe" value="Skriv upp dig för nyhetsbrev!">
+                <input type="submit" class="btn btn-success btn-successes btn-send" name="subscribe" id="mc-embedded-subscribe" value="Skriv upp dig för nyhetsbrev!">
             </div><br>
                
         </div>
         <div class="row">
-        <div class="col-md-push-4 col-md-4"><p style="text-align: center; color: grey;">Favour:it 2016</p></div>
+        <div class="col-md-push-4 col-md-4"><br><p style="text-align: center; color: rgba(255, 255, 255, 0.8);">Favour:it 2016</p></div>
         </div>
                </form>
        </div>
+    </div>
+            
+    </div>
+            
        
-        </footer>
+     
           
  <!--Start of Tawk.to Script-->
 <script type="text/javascript">

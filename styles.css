@@ -57,7 +57,7 @@ p {
     min-height: 80%;
     position: absolute;
      text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
+   
   
 
 }
@@ -76,7 +76,7 @@ background-color: #5BA1FF;
     padding-top: 30px;
 }
 .background {
- background-image: url(map.png);
+ background-image: url(map_black.png);
   background-size: cover;
     min-height: 80%;
 }
@@ -88,12 +88,13 @@ width: 100%;}
     position: relative;
     height: 100%;
     width: 100%;
- background: #5BA1FF;
+ /* background: #5BA1FF; */
     text-align: center;
     min-height: 305px;
     padding-left: 5px;
     padding-right: 5px;
     border-radius: 20px;
+    color: rgba(0, 0, 0, 0.75);
 }
 
 .brackgroundstep img {
@@ -146,6 +147,7 @@ font-size: 20px;
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
   border-color: transparent;
+background-color: #5BA1FF !important;
 }
 @media (max-width: 767px) {
   .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
@@ -160,7 +162,9 @@ navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover .navba
   color: white;
     text-align: center;
 }
-
+.navbar-inverse a{
+margin-right: 20px;
+}
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
   color: #22F;
 }
@@ -213,8 +217,8 @@ padding-bottom: 10px;
 }
 .small-logo img
 {
-margin-top: -5px;
-padding-left: 10px;
+margin-top: -15px;
+padding-left: 30px;
 overflow: hidden;
 min-width: 145px;
 }
@@ -223,7 +227,7 @@ min-width: 145px;
   ********************************** */
 .big-logo-row {
   background: #5BA1FF;
-    height: 10.5%;
+    /*height: 10.5%;*/
     border-bottom: 20px;
     border-bottom-color: black;
 }
@@ -334,7 +338,7 @@ margin-top: 15px;
     text-align: center;
     white-space: nowrap;
     vertical-align: middle;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: #5BA1FF;
     border-radius: 16px;
 }
 .stepbystep {
@@ -360,23 +364,26 @@ margin-top: 15px;
     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
 
-.btn-info {
-background-image: -webkit-linear-gradient(top,#5bc0de 0,#5BA1FF 100%);
-    background-image: -o-linear-gradient(top,#5bc0de 0,#5BA1FF 100%);
-    background-image: -webkit-gradient(linear,left top,left bottom,from(#5bc0de),to(#2aabd2));
-    background-image: linear-gradient(to bottom,#5bc0de 0,#5BA1FF 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5bc0de', endColorstr='#ff2aabd2', GradientType=0);
-    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
-    background-repeat: repeat-x;
-    border-color: #28a4c9;
+.btn-successes {
+
     width: 100%;
-    background-image: #5BA1FF;
+    
 }
 
 .controls {
- background: whitesmoke;
+ background-color: #5BA1FF;
     display: block;
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 
+}
+
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    background-color: #5BA1FF;
+    margin-right: -15px;
+    margin-left: -15px;
 }
 
 @media (min-width: 600px) {
@@ -396,4 +403,26 @@ background-color: #5BA1FF;
     padding-top: 30px;
 }
 }
+navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: #5BA1FF;
+}
+.navbar-inverse .navbar-toggle {
+    border: 1px solid #333;
+    border-color: rgba(255, 255, 255, 0.7);
+}
+.navbar-inverse .navbar-toggle {
+     background-color: #5BA1FF !important;
+    border-color: white;
+}
+
+navbar-inverse .navbar-toggle:after, {
+ background-color: #5BA1FF !important;
+}
+navbar-inverse .navbar-toggle:before, {
+ background-color: #5BA1FF !important;
+}
+
+#albinsfooter {
+background-color: #5AB1FF;
+width: 100% !important;}
 
