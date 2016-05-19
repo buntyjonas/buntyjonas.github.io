@@ -50,7 +50,7 @@ var iosVariable = "sms:/ +4676-6862203 /&body=Vad behöver du:%0a%0aNär vill du
 
 var androidVariable = "sms:/+4676-6862203 /?body=Vad behöver du:%0a%0aNär vill du ha det:%0a%0aVart vill du ha det:%0a%0aVad du tycker det är värt(ange värdet för ärendet exklusive eventuella inköp):"
 
-$( document ).ready(function getMobileOperatingSystem() {
+$(function getMobileOperatingSystem() {
   var userAgent = navigator.userAgent || navigator.vendor || window.opera;
 
   if( userAgent.match( /iPad/i ) || userAgent.match( /iPhone/i ) || userAgent.match( /iPod/i ) )
@@ -66,4 +66,5 @@ document.getElementById("sms").href = iosVariable;
       
   }
 });
+
 
