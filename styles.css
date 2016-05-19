@@ -78,7 +78,7 @@ background-color: #5BA1FF;
 .background {
  background-image: url(map_black.png);
   background-size: cover;
-    min-height: 80%;
+    min-height: 90%;
 }
 
 .steprow {
