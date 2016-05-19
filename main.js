@@ -56,13 +56,13 @@ console.log("GET OPERATING SYSTEM");
     var isIOS= userAgent.match( /iPad/i ) || userAgent.match( /iPhone/i ) || userAgent.match( /iPod/i );
   if(isIOS)
   {
- console.log("JA");
+ console.log("IOS");
 document.getElementById("sms").href = iosVariable;
       console.log("IOS");
   }
   else if( userAgent.match( /Android/i ) )
   {
-
+console.log("ANDROID");
       document.getElementById("sms").href = androidVariable;
       console.log("Android");
       
