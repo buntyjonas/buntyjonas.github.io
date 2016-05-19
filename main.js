@@ -48,21 +48,23 @@ function MVPdesktop() {
 
 var iosVariable = "sms:/ +4676-6862203 /&body=Vad behöver du:%0a%0aNär vill du ha det:%0a%0aVart vill du ha det:%0a%0aVad du tycker det är värt(ange värdet för ärendet exklusive eventuella inköp):";
 
-var androidVariable = "sms:/+4676-6862203 /?body=Vad behöver du:%0a%0aNär vill du ha det:%0a%0aVart vill du ha det:%0a%0aVad du tycker det är värt(ange värdet för ärendet exklusive eventuella inköp):"
+var androidVariable = "sms:/+4676-6862203 /?body=Vad behöver du:%0a%0aNär vill du ha det:%0a%0aVart vill du ha det:%0a%0aVad du tycker det är värt(ange värdet för ärendet exklusive eventuella inköp):";
 
 $(function getMobileOperatingSystem() {
   var userAgent = navigator.userAgent || navigator.vendor || window.opera;
-
-  if( userAgent.match( /iPad/i ) || userAgent.match( /iPhone/i ) || userAgent.match( /iPod/i ) )
+console.log("GET OPERATING SYSTEM");
+    var isIOS= userAgent.match( /iPad/i ) || userAgent.match( /iPhone/i ) || userAgent.match( /iPod/i );
+  if(isIOS)
   {
-    return 'iOS';
+ console.log("JA");
 document.getElementById("sms").href = iosVariable;
+      console.log("IOS");
   }
   else if( userAgent.match( /Android/i ) )
   {
 
-    return 'Android';
       document.getElementById("sms").href = androidVariable;
+      console.log("Android");
       
   }
 });
