@@ -121,13 +121,12 @@ background-color: #5BA1FF;
     padding-top: 30px;
 }
 #faqdiv {
-color: white;
-background-color: #5BA1FF;
+color: rgba(0, 0, 0, 0.7);
+background-color: white;
       margin-top: 5%;
     position: relative;
     height: 100%;
    width: 103%;
- background: #5BA1FF;
     text-align: center;
     min-height: 225px;
     padding-left: 5px;
@@ -136,10 +135,26 @@ background-color: #5BA1FF;
     padding-top: 30px;
 }
 #faqdiv p {
-font-size: 20px;
-
+font-size: 18px;
+text-align: left
 }
-
+#faqdiv li {
+font-size: 20px;
+text-align: left
+}
+#faqdivfaq {
+color: rgba(0, 0, 0, 0.7);
+background-color: white;
+      margin-top: 1%;
+    position: relative;
+    height: 100%;
+   width: 100%;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 20px;
+    padding-top: 30px;
+}
 .navbar-inverse .navbar-toggle {
   border: 1px solid #333;
   border-color: rgba(255, 255, 255, 0.7);
@@ -387,20 +402,37 @@ margin-top: 15px;
 }
 
 @media (min-width: 600px) {
-    #faqdiv {
-color: white;
-background-color: #5BA1FF;
-      margin-top: 5%;
+    #faqdiv p {
+color: rgba(0, 0, 0, 7);
     position: relative;
     height: 100%;
-   width: 103%;
- background: #5BA1FF;
+   width: 100%;
     text-align: center;
-    min-height: 225px;
     padding-left: 80px;
     padding-right: 80px;
     border-radius: 20px;
     padding-top: 30px;
+}
+}
+
+
+@media (min-width: 600px) {
+    #faqdiv em {
+color: rgba(0, 0, 0, 7);
+text-align: left;
+}
+}
+
+.checkboxes {
+
+color: rgba(0, 0, 0, 0.7);
+font-size: 20px;
+}
+@media (min-width: 600px) {
+    #faqdiv h1 {
+color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+   
 }
 }
 navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
@@ -426,3 +458,6 @@ navbar-inverse .navbar-toggle:before, {
 background-color: #5AB1FF;
 width: 100% !important;}
 
+.checko {
+color: #56B156;
+}
