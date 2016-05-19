@@ -37,5 +37,5 @@ $(window).scroll(function() {
 
 function MVPmobilen() {
     
-    ga('send', 'event', 'order', 'click', 'MVPMobile');
+    ga('send', 'event', 'orderMobile', 'click', 'MVPMobile');
 }
