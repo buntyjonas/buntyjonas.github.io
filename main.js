@@ -39,3 +39,4 @@ function MVPmobilen() {
     
     ga('send', 'event', 'orderMobile', 'click', 'MVPMobile');
 }
+
