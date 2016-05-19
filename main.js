@@ -40,3 +40,9 @@ function MVPmobilen() {
     ga('send', 'event', 'orderMobile', 'click', 'MVPMobile');
 }
 
+
+function MVPmobilen() {
+    
+    ga('send', 'event', 'orderDesktop', 'click', 'MVPdesktop');
+}
+
