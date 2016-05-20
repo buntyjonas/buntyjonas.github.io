@@ -48,7 +48,7 @@ function MVPdesktop() {
 
 var iosVariable = "sms:/ +4676-6862203 /&body=Vad behöver du:%0a%0aNär vill du ha det:%0a%0aVart vill du ha det:%0a%0aVad du tycker det är värt(ange värdet för ärendet exklusive eventuella inköp):";
 
-var androidVariable = "sms://+4676-6862203/?body=Vad behöver du:%0a%0aNär vill du ha det:%0a%0aVart vill du ha det:%0a%0aVad du tycker det är värt(ange värdet för ärendet exklusive eventuella inköp):";
+var androidVariable = "sms:+4676-6862203?body=Vad behöver du:%0a%0aNär vill du ha det:%0a%0aVart vill du ha det:%0a%0aVad du tycker det är värt(ange värdet för ärendet exklusive eventuella inköp):";
 
 $(function getMobileOperatingSystem() {
   var userAgent = navigator.userAgent || navigator.vendor || window.opera;
