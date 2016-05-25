@@ -519,3 +519,16 @@ width: 100% !important;}
 .checko {
 color: #56B156;
 }
+
+.footcont {
+    text-align: center;
+}
+
+
+.foot {
+    display: inline-block;
+    margin: 5px 5px;
+    padding: 2px;
+    padding-top: 15px;
+    
+}
